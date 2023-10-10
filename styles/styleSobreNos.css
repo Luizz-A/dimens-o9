@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* fontes */
+    --font-thin: 'archivo-thin',sans-serif;
+    --font-extraLight: 'archivo-extraLight',sans-serif;
+    --font-light: 'archivo-light',sans-serif;
+    --font-regular: 'archivo-regular',sans-serif;
+    --font-medium: 'archivo-medium',sans-serif;
+    --font-semiBold: 'archivo-semiBold',sans-serif;
+    --font-bold: 'archivo-bold',sans-serif;
+    --font-extraBold: 'archivo-extraBold',sans-serif;
+    --font-black: 'archivo-black',sans-serif;
+    /* cinza  1-10*/ 
+    --cinza-n1: #ece9e9 ;
+    --cinza-n3: rgb(142, 141, 141);
+    --cinza-n7: rgb(90, 89, 89);
+    --cinza-n8: #7b6a6a;
+    --cinza-n10: #383737;
+}
+
+#mainSobreNos{
+    margin-top: 190px;
+}
+
+#container-sobreNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#container-sobreNos:hover{
+    box-shadow: 0px 0px 90px rgba(3, 3, 84, 0.786);
+    transition: box-shadow 1s ease;
+}
+.elements-sobreNos{
+    margin: auto 30px;
+}
+#info-sobreNos{
+    display: flex;
+    flex-direction: column;
+    
+}
+#info-sobreNos h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+#info-sobreNos p{
+    letter-spacing: 1px;
+    font-family: var(--font-medium);
+    width: 400px;
+    font-size: 18px;
+    color: var(--cinza-n7);
+}
+
+#info-sobreEquipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+#info-sobreEquipe h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#info-sobreEquipe p{
+    width: 600px;
+    font-family: var(--font-medium);
+    font-size: 18px;
+    color: var(--cinza-n7);
+}
+
+#figure-sobreNos > img{
+    border-radius: 15px 0px 0px 15px;
+}

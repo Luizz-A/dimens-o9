@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'archivo-thin';
+    src: url('../fonts/archivo/static/Archivo-Thin.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "archivo-thin";
+    src: url('../fonts/archivo/static/Archivo-Thin.ttf');
+    font-weight: 100;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-extraLight';
+    src: url('../fonts/archivo/static/Archivo-ExtraLight.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-light';
+    src: url('../fonts/archivo/static/Archivo-Light.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-regular';
+    src: url('../fonts/archivo/static/Archivo-Regular.ttf'), url('../fonts/archivo/static/') format('truetype');
+    font-weight: 400;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-medium';
+    src: url('../fonts/archivo/static/Archivo-Medium.ttf') format('truetype') , url('../fonts/archivo/static/Archivo-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-semiBold';
+    src: url('../fonts/archivo/static/Archivo-SemiBold.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-bold';
+    src: url('../fonts/archivo/static/Archivo-Bold.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-extraBold';
+    src: url('../fonts/archivo/static/Archivo-ExtraBold.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'archivo-black';
+    src: url('../fonts/archivo/static/Archivo-Black.ttf') format('truetype'), url('../fonts/archivo/static/Archivo-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-size: normal;
+}
